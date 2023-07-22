@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+  datasource:
+    url: jdbc:mysql://db/animal
+    username: maria
+    password: pass
+
